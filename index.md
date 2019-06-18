@@ -13,6 +13,6 @@ subcollection: hyper-protect-dbaas-for-postgresql
 {:external: target="_blank" .external}
 {:shortdesc: .shortdesc}
 
-# Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}
+# Getting started 
 {: #gettingstarted}
 
