@@ -1,0 +1,11 @@
+<!-- Markdown Navigation -->
+
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="hyper-protect-dbaas-for-postgresql" audience="service" arm="3917562" href="/docs/services/hyper-protect-dbaas-for-postgresql/index.html" path="services/hyper-protect-dbaas-for-postgresql"}
+IBM Cloud Hyper Protect DBaaS for PostgreSQL
+
+    {: .navgroup id="learn"}
+    index.md
+    {: .navgroup-end}
