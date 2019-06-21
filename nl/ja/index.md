@@ -16,8 +16,7 @@ subcollection: hyper-protect-dbaas-for-postgresql
 # {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}} の概要
 {: #gettingstarted}
 
-{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_postgresql_full}} は、オンデマンドで PostgreSQL データベースを提供する {{site.data.keyword.cloud_notm}} サービスです。
-柔軟かつスケーラブルなプラットフォームで、最適なデータベースを迅速かつ簡単にプロビジョンして管理することができます。
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_postgresql_full}} は、オンデマンドで PostgreSQL データベースを提供する {{site.data.keyword.cloud_notm}} サービスです。 柔軟かつスケーラブルなプラットフォームで、最適なデータベースを迅速かつ簡単にプロビジョンして管理することができます。
 {: shortdesc}
 
 この {{site.data.keyword.cloud_notm}} オファリングでは、PostgreSQL データベース・クラスターが提供されます。 各データベース・クラスターは、1 つのマスター・データベース・インスタンスと、マスター・データベースをバックアップする 2 つのデータベース・インスタンス・スレーブから構成されます。
@@ -91,7 +90,7 @@ PostgreSQL データベースの作成後、pgAdmin またはお気に入りの 
   <dt> &lt;<em>Hostname</em>&gt; </dt>
     <dd> データベース・クラスターのホスト名 </dd>
   <dt> &lt;<em>Username</em>&gt; </dt>
-    <dd> サービス作成画面で指定されたデータベース管理者のユーザー名</dd>
+    <dd> サービス作成画面で指定されたデータベース管理者のユーザー名 </dd>
   <dt> &lt;<em>PortNumber</em>&gt; </dt>
     <dd> データベース・クラスターのポート番号 </dd>
   <dt> &lt;<em>CAFilePath</em>&gt; </dt>

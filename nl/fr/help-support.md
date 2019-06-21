@@ -25,7 +25,7 @@ Si vous rencontrez des problèmes, servez-vous des techniques décrites ci-desso
 {: shortdesc}
 
 * Reportez-vous au [Centre de support {{site.data.keyword.cloud}}](https://cloud.ibm.com/unifiedsupport/supportcenter){: external}
-* Sélectionnez l'onglet **Support** dans la console {{site.data.keyword.cloud_notm}} 
+* Sélectionnez l'onglet **Support** dans la console {{site.data.keyword.cloud_notm}}
 
 Pour prendre contact avec l'équipe, utilisez l'une des options suivantes :
 

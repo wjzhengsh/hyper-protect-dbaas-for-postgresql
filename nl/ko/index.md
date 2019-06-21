@@ -90,7 +90,7 @@ PostgreSQL 데이터베이스를 작성한 후에는 pgAdmin 또는 선호하는
   <dt> &lt;<em>Hostname</em>&gt; </dt>
     <dd> 데이터베이스 클러스터의 호스트 이름입니다. </dd>
   <dt> &lt;<em>Username</em>&gt; </dt>
-    <dd> 서비스 작성 화면에 지정된 데이터베이스 관리자의 사용자 이름입니다.</dd>
+    <dd> 서비스 작성 화면에 지정된 데이터베이스 관리자의 사용자 이름입니다. </dd>
   <dt> &lt;<em>PortNumber</em>&gt; </dt>
     <dd> 데이터베이스 클러스터의 포트 번호입니다. </dd>
   <dt> &lt;<em>CAFilePath</em>&gt; </dt>

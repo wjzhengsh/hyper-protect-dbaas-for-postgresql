@@ -19,7 +19,7 @@ subcollection: hyper-protect-dbaas-for-postgresql
 {:note: .note}
 {:important: .important}
 
-# Ruoli e azioni di Identity and Access Management 
+# Ruoli e azioni di Identity and Access Management
 {: #iam}
 
 L'accesso alle istanze del servizio {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}} per gli utenti nel tuo account è controllato da {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM). Ad ogni utente che accede al servizio {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}} nel tuo account deve essere assegnata una politica di accesso con un ruolo IAM definito. La politica determina quali azioni possono essere eseguite da un utente all'interno del contesto del servizio o dell'istanza che selezioni. Le azioni consentite sono personalizzate e definite dal servizio {{site.data.keyword.cloud_notm}} come delle operazioni che è permesso eseguire sul servizio. Le azioni vengono poi associate ai ruoli utente IAM.
@@ -42,6 +42,5 @@ La seguente tabella illustra le azioni associate ai ruoli di gestione della piat
 |Operatore                |Esegue le azioni della piattaforma necessarie a configurare ed utilizzare le istanze del servizio, ad esempio la visualizzazione del dashboard di un servizio|<ul><li>Associare un servizio a un cluster</li></ul>|
 |Amministratore           |Esegue tutte le azioni della piattaforma basate sulla risorsa a cui è assegnato questo ruolo, inclusa l'assegnazione delle politiche di accesso ad altri utenti|<ul><li>Rimuovere un cluster</li><li>Creare un cluster</li><li>Aggiornare le politiche di accesso utente</li><li>Tutte le azioni che possono essere eseguite da un visualizzatore, editor o operatore</li></ul>|
 {: caption="Tabella 1. Ruoli e azioni utente di IAM"}
-
 
 Per informazioni sull'assegnazione dei ruoli utente nell'IU, vedi [Gestione dell'accesso alle risorse](/docs/iam?topic=iam-iammanidaccser#iammanidaccser).

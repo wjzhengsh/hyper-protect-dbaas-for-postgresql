@@ -49,7 +49,7 @@ Dans le tableau de bord {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas
 1. Sélectionnez l'instance de base de données.
 2. Sélectionnez la **date de début** et la **date de fin** pour filtrer les journaux par heure.
 3. Sélectionnez les journaux que vous souhaitez télécharger en cliquant sur la **case à cocher** en regard du nom du journal.
-4. Cliquez sur le bouton **Télécharger**. 
+4. Cliquez sur le bouton **Télécharger**.
 
 ## Vérification du statut de l'instance
 {: #webui-check-instance-status}

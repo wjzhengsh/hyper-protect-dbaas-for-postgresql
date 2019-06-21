@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-06-21"
 
 keywords: DBaaS Manager APIs, DBaaS Manager, API request
 
@@ -51,11 +51,11 @@ Ausführlichere Informationen (Methoden und Parameter) finden Sie in der [Dokume
 
 Setzen Sie zum Erstellen einer Serviceinstanz einen direkten API-Abruf ab, zum Beispiel:
 
-```javascript
+```
 curl -X POST \
 "https://<ip>:<port>/api/v1/services" \
--d '{"name": "Service_Name", "resource_group": "default", "plan": "mongodb-free", "admin_name": "admin", "password": "passw0rd_for_adm"}'
--H "x-auth-token: {access_token}" \
+-d '{"catalog": "hyperp-dbaas-postgresql", "name": "Service_Name", "resource_group": "default", "plan": "postgresql-small", "admin_name": "admin", "password": "passWORD4User19"}'
+-H "x-auth-token: <access_token>" \
 -H "accept: application/json" \
 -H "accept-license-agreement: yes"
 ```
@@ -63,7 +63,7 @@ curl -X POST \
 
 Dabei gilt:
 <dl>
-<dt> &lt;<em>accessToken</em>&gt; </dt>
+<dt> &lt;<em>access_token</em>&gt; </dt>
 <dd>Das vorher abgerufene Zugriffstoken; Informationen hierzu finden Sie unter [Authentifizierung zur Verwendung mit DBaaAS-Manager-APIs festlegen](/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-api-auth). (**Hinweis:** Wenn das Zugriffstoken abgelaufen ist, geben Sie diese Anweisungen zurück und fordern Sie ein neues Token an.) </dd>
 <dt> &lt;<em>ip</em>&gt; </dt>
 <dd>Der Hostname eines DBaaS-Managers. Gültige Hostnamen werden in der obigen Tabelle aufgeführt.

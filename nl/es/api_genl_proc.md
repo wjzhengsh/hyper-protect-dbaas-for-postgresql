@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-06-10"
+lastupdated: "2019-06-21"
 
 keywords: DBaaS Manager APIs, DBaaS Manager, API request
 
@@ -51,11 +51,11 @@ Para obtener más información sobre métodos y parámetros, consulte la [docume
 
 Para crear una instancia de servicio, emita una llamada de API directa, como por ejemplo:
 
-```javascript
+```
 curl -X POST \
 "https://<ip>:<port>/api/v1/services" \
--d '{"name": "Service_Name", "resource_group": "default", "plan": "mongodb-free", "admin_name": "admin", "password": "passw0rd_for_adm"}'
--H "x-auth-token: {access_token}" \
+-d '{"catalog": "hyperp-dbaas-postgresql", "name": "Service_Name", "resource_group": "default", "plan": "postgresql-small", "admin_name": "admin", "password": "passWORD4User19"}'
+-H "x-auth-token: <access_token>" \
 -H "accept: application/json" \
 -H "accept-license-agreement: yes"
 ```
@@ -63,7 +63,7 @@ curl -X POST \
 
 Donde:
 <dl>
-<dt> &lt;<em>accessToken</em>&gt; </dt>
+<dt> &lt;<em>access_token</em>&gt; </dt>
 <dd>Es la señal de acceso obtenida previamente; consulte [Configuración de la autenticación para utilizar las API del gestor de DBaaS](/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-api-auth). (**Nota:** si la señal de acceso ha caducado, vuelva a estas instrucciones y solicite una nueva señal.) </dd>
 <dt> &lt;<em>ip</em>&gt; </dt>
 <dd>Es el nombre de host de un gestor de DBaaS. Los nombres de host válidos se enumeran en la lista de la tabla anterior.

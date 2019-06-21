@@ -22,7 +22,7 @@ subcollection: hyper-protect-dbaas-for-postgresql
 Le service {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_postgresql_full}} déclenche automatiquement une sauvegarde de la totalité de votre base de données toutes les 24 heures. Ces sauvegardes chiffrées sont disponibles pour les 7 derniers jours et elles sont mises à disposition de manière redondante sur le stockage local dans toutes les zones de disponibilité de la région prise en charge.
 {: shortdesc}
 
-Si vous souhaitez augmenter vos capacités de reprise après incident et sauvegarder les données en dehors de la région prise en charge, vous pouvez utiliser le [service {{site.data.keyword.cos_full_notm}}](https://cloud.ibm.com/catalog/services/cloud-object-storage){: external} pour stocker vos données dans une autre région en vous référant aux étapes suivantes. 
+Si vous souhaitez augmenter vos capacités de reprise après incident et sauvegarder les données en dehors de la région prise en charge, vous pouvez utiliser le [service {{site.data.keyword.cos_full_notm}}](https://cloud.ibm.com/catalog/services/cloud-object-storage){: external} pour stocker vos données dans une autre région en vous référant aux étapes suivantes.
 
 ## Avant de commencer
 {: #backup_postgresql_before_begin}
@@ -61,7 +61,7 @@ Vous devez créer l'instance dans une région différente de celle où l'instanc
 2. [Créez un compartiment](/docs/services/cloud-object-storage?topic=cloud-object-storage-endpoints#endpoints-region) dans une autre région.
 3. [Créez des données d'identification de service](/docs/services/cloud-object-storage?topic=cloud-object-storage-service-credentials) et enregistrez les identifiants `access_key_id` et `secret_access_key` pour une utilisation ultérieure.
 4. Installez un client S3.
-5. Utilisez le client S3 et les clés d'accès pour vous connecter au noeud final de Cloud {{site.data.keyword.cos_short}} du compartiment que vous avez créé précédemment. 
+5. Utilisez le client S3 et les clés d'accès pour vous connecter au noeud final de Cloud {{site.data.keyword.cos_short}} du compartiment que vous avez créé précédemment.
 6. Utilisez le client S3 pour [télécharger le fichier de sauvegarde {{site.data.keyword.postgresql}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-upload) que vous avez créé à l'[étape 1](#step1_create_dump_file_backup_postgresql) dans le compartiment.
 
 Pour plus d'informations, vous pouvez vous reporter à la [documentation {{site.data.keyword.cos_full_notm}}](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started).

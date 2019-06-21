@@ -43,5 +43,4 @@ subcollection: hyper-protect-dbaas-for-postgresql
 |管理者|根據指派這個角色的資源執行所有平台動作，包括指派存取原則給其他使用者|<ul><li>移除叢集</li><li>建立叢集</li><li>更新使用者存取原則</li><li>檢視者、編輯者及操作員可以執行的所有動作</li></ul>|
 {: caption="表 1. IAM 使用者角色及動作"}
 
-
 如需在使用者介面中指派使用者角色的相關資訊，請參閱[管理對資源的存取權](/docs/iam?topic=iam-iammanidaccser#iammanidaccser)。

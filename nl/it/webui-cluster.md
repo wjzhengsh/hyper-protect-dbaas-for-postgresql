@@ -50,7 +50,7 @@ subcollection: hyper-protect-dbaas-for-postgresql
     <dd>
     <p>Una password per l'ID utente DBA. Devi creare una password sicura con i seguenti attributi:
       <ul>
-        <li>una lunghezza di minimo **15 caratteri** </li>
+        <li>una lunghezza di minimo **15 caratteri**</li>
         <li>almeno **un carattere maiuscolo**</li>
         <li>almeno **un carattere minuscolo**</li>
         <li>almeno **un numero**</li>

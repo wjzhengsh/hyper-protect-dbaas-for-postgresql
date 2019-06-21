@@ -27,9 +27,7 @@ subcollection: hyper-protect-dbaas-for-postgresql
 {: #ga-201906}
 情報更新日: 2019 年 6 月 21 日
 
-{{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}} は、オンデマンドで {{site.data.keyword.postgresql}} データベースを提供する {{site.data.keyword.cloud_notm}} サービスです。
-柔軟かつスケーラブルなプラットフォームで、最適なデータベースを迅速かつ簡単にプロビジョンして管理することができます。
-
+{{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}} は、オンデマンドで {{site.data.keyword.postgresql}} データベースを提供する {{site.data.keyword.cloud_notm}} サービスです。 柔軟かつスケーラブルなプラットフォームで、最適なデータベースを迅速かつ簡単にプロビジョンして管理することができます。
 
 {{site.data.keyword.IBM_notm}} は可用性が高くセキュアな環境でデータベースをホストします。
 

@@ -25,7 +25,7 @@ Ziehen Sie die folgenden Techniken zur Fehlerbehebung und zum Abrufen von Hilfe 
 {: shortdesc}
 
 * Rufen Sie das [{{site.data.keyword.cloud}} Support Center](https://cloud.ibm.com/unifiedsupport/supportcenter){: external} auf.
-* Wählen Sie die Registerkarte **Support** in der {{site.data.keyword.cloud_notm}}-Konsole aus. 
+* Wählen Sie die Registerkarte **Support** in der {{site.data.keyword.cloud_notm}}-Konsole aus.
 
 Verwenden Sie eine der folgenden Möglichkeiten, um Kontakt zum Team aufzunehmen:
 

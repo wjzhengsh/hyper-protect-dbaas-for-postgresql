@@ -30,6 +30,6 @@ Novità a partire da: 21 giugno 2019
 {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}} è un servizio {{site.data.keyword.cloud_notm}} che fornisce dei database {{site.data.keyword.postgresql}} su richiesta. Offre una piattaforma flessibile e scalabile che ti permette di eseguire velocemente e facilmente il provisioning
 e di gestire il database di tua scelta.
 
-{{site.data.keyword.IBM_notm}} ospita i tuoi database in un ambiente altamente disponibile e sicuro. 
+{{site.data.keyword.IBM_notm}} ospita i tuoi database in un ambiente altamente disponibile e sicuro.
 
 Per ulteriori informazioni, vedi [Introduzione a {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_postgresql_full}}](/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted).

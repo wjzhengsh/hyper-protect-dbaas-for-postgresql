@@ -33,7 +33,7 @@ Où les définitions des paramètres sont les suivantes :
 | ---------------- |  -------------------------------------------------------------- |
 | *MyDBaaSIns03*   |  Nom de l'instance de service (remplacez cette valeur par un nom de votre choix). |
 | *hyperp-dbaas-postgresql* | Nom de catalogue de {{site.data.keyword.ihsdbaas_postgresql_full}}. |
-| *postgresql-small*  | Nom de plan. Les plans disponibles sont : **postgresql-small**, **postgresql-medium** et **postgresql-large**. (**Remarque :** les noms de plan sont sensibles à la casse.) |
+| *postgresql-small*  | Nom de plan. Les plans disponibles sont : **postgresql-small**, **postgresql-medium** et **postgresql-large**.  (**Remarque :** les noms de plan sont sensibles à la casse.) |
 | *us-south*            | Futur emplacement de votre nouvelle base de données. (**Remarque :** actuellement, seule la région **us-south** prend en charge {{site.data.keyword.ihsdbaas_postgresql_full}}.) |
 | *-p*               | Chaîne JSON valide, qui doit contenir les paramètres présentés dans le tableau suivant : |
 

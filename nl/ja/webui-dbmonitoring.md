@@ -26,7 +26,7 @@ subcollection: hyper-protect-dbaas-for-postgresql
 {: #webui-database-monitoring-byb}
 
 1.  Cloud Foundry 組織およびダラス (us-south) のスペースに対するアクセス権があることを確認します。
-このようなアクセス権の取得方法については、[Cloud Foundry アクセス権限の管理](https://cloud.ibm.com/docs/iam?topic=iam-mngcf#mngcf){: external}を参照してください。
+    このようなアクセス権の取得方法については、[Cloud Foundry アクセス権限の管理](https://cloud.ibm.com/docs/iam?topic=iam-mngcf#mngcf){: external}を参照してください。
 
 2.  データベース・クラスターのすべてのインスタンスが稼働していることを確認します。
 
@@ -53,4 +53,3 @@ Grafana の新しいダッシュボードにメトリックを表示するには
 データベース・クラスター ID とインスタンス ID が表示されるまで時間がかかることがあります。また、ダッシュボードを再ロードする必要がある場合もあります。
 
 Grafana の使用の詳細については、[{{site.data.keyword.cloud_notm}}モニタリング](/docs/services/cloud-monitoring?topic=cloud-monitoring-getting-started)を参照してください。
-
