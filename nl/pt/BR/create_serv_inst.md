@@ -33,7 +33,7 @@ Em que os parâmetros têm as definições a seguir:
 | ---------------- |  -------------------------------------------------------------- |
 | *MyDBaaSIns03*   |  O nome da instância de serviço (substitua por um nome de sua própria escolha). |
 | *hyperp-dbaas-postgresql* | O nome do catálogo do {{site.data.keyword.ihsdbaas_postgresql_full}}. |
-| *postgresql-small*  | O nome do plano. Os planos disponíveis são:**postgresql-small**, **postgresql-medium** e **postgresql-large**. (**Nota:** os nomes de plano fazem distinção entre maiúsculas e minúsculas.) |
+| *postgresql-small*  | O nome do plano. Os planos disponíveis são:**postgresql-small**, **postgresql-medium** e **postgresql-large**.  (**Nota:** os nomes de plano fazem distinção entre maiúsculas e minúsculas.) |
 | *us-south*            | O local no qual o seu novo banco de dados será localizado. (**Nota:** atualmente apenas **us-south** suporta o {{site.data.keyword.ihsdbaas_postgresql_full}}.) |
 | *-p*               | Uma sequência de JSON válida, que deve conter os parâmetros na tabela a seguir. |
 
